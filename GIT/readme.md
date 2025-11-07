@@ -28,6 +28,8 @@
 ---
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="50"/>
 
+<img width="1152" height="426" alt="image" src="https://github.com/user-attachments/assets/311c5d02-5a49-44e7-b3cf-255632dc5846" />
+
 ## Clone/Download remote repository 
 ````
 git clone https://github.com/abhipraydhoble/project-0001.git
@@ -69,7 +71,7 @@ git push
 - enter github username
 - enter github token
 
-<img width="1152" height="426" alt="image" src="https://github.com/user-attachments/assets/311c5d02-5a49-44e7-b3cf-255632dc5846" />
+
 
 
 
