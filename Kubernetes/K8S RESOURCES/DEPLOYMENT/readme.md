@@ -2,6 +2,16 @@
 - Date: 12-12-25
 ---
 
+**Kubernetes Deployment** is an object that helps you **run and manage your application automatically**.
+
+It:
+
+* Runs **multiple copies (replicas)** of your app
+* **Restarts pods** if they crash (self-healing)
+* **Scales up/down** easily
+* Updates the app **without downtime** (rolling updates)
+
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
