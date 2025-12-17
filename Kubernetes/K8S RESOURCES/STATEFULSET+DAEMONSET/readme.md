@@ -1,3 +1,13 @@
+# StatefulSet
+A StatefulSet runs a group of Pods, and maintains a sticky identity for each of those Pods. 
+This is useful for managing applications that need persistent storage or a stable, unique network identity.
+
+StatefulSets are valuable for applications that require one or more of the following:
+
+Stable, unique network identifiers.
+Stable, persistent storage.
+Ordered, graceful deployment and scaling.
+Ordered, automated rolling updates.
 
 #### Example 1:
 ```yaml
@@ -72,7 +82,11 @@ spec:
 ````
 
 ## DaemonSet
-
+A DaemonSet ensures that all (or some) Nodes run a copy of a Pod.
+Some typical uses of a DaemonSet are:
+running a cluster storage daemon on every node
+running a logs collection daemon on every node
+running a node monitoring daemon on every node
 ```yaml
 apiVersion: apps/v1
 kind: DaemonSet
@@ -93,3 +107,5 @@ spec:
           ports:
             - containerPort: 80
 ```
+
+<img width="1233" height="568" alt="image" src="https://github.com/user-attachments/assets/3a166699-775d-49eb-af2c-52536769c74d" />
